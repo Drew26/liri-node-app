@@ -27,7 +27,9 @@ Overview
 * Venue location
 * Date of the Event (use moment to format this as "MM/DD/YYYY")
 
+![Concert This](concert-this.jpg?raw=true "Concert This")
 
+![Concert This Result](concer-this-result.jpg?raw=true "Concert This Result")
 
 
 
@@ -45,14 +47,15 @@ This will show the following information about the song in your terminal/bash wi
 * The album that the song is from
 
 
+![Spotify This](spotify-this.jpg?raw=true "Spotify This")
+
 If no song is provided then your program will default to "The Sign" by Ace of Base.
 
 
+![Spotify This AOB](spotify-this-ace.jpg?raw=true "Spotify This AOB")
 
 
 node liri.js movie-this 'movie name here'
-
-
 
 
 This will output the following information to your terminal/bash window:
@@ -67,13 +70,16 @@ This will output the following information to your terminal/bash window:
    * Actors in the movie.
 
 
+![Movie This](movie-this.jpg?raw=true "Movie This")
+
+
+
 If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
 
-
+![Movie This Blank](movie-this-nobody.jpg?raw=true "Movie This Blank")
+![Movie This Blank cont.](movie-this-nobody2.jpg?raw=true "Movie This Blank cont.")
 
 node liri.js do-what-it-says
-
-
 
 
 Using the fs Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
@@ -81,6 +87,8 @@ Using the fs Node package, LIRI will take the text inside of random.txt and then
 
 It will run spotify-this-song for "I Want it That Way," as follows the text in random.txt.
 
+![Do what it says](do-what-it-says.jpg?raw=true "Do what it says")
 
 
-* Screenshots are in the repository under liri.docx
+
+* Screenshots are also in the repository under liri.docx
